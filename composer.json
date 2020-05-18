@@ -1,0 +1,29 @@
+{
+    "name": "bryan3561/design_patterns_php",
+    "description": "The 23 Gang of Four (GoF) design patterns written in PHP.",
+    "keywords": ["php", "design patterns"],
+    "homepage": "https://github.com/bryan3561/design_patterns_php",
+    "authors": [
+        {
+            "name": "Bryan Contreras",
+            "email": "bryan3561@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Test\\DesignPatterns\\": "tests"
+        }
+    }
+}
